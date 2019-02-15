@@ -4,6 +4,6 @@ import com.typesafe.scalalogging.LazyLogging
 object AppEntry extends App with LazyLogging   {
 
 
-  val classOrchestrateInstance = new ClassOrchestrator
-  classOrchestrateInstance.orchestrate.map((statement:String) => logger.info(statement) )
+  val orchestrateInstance = new Orchestrator
+  orchestrateInstance.orchestrate.map((statement:String) => logger.info(statement) )
 }

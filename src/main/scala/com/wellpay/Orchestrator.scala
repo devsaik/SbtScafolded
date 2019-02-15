@@ -1,6 +1,6 @@
 package com.wellpay
 
-class ClassOrchestrator {
+class Orchestrator {
 
   def orchestrate (): Option[String] ={
     Some("You are in Orchestrator")

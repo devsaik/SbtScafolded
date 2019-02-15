@@ -20,7 +20,6 @@ object Dependencies {
     // Java
    
     val yodaTime             = "2.9.9"
-    val slf4j                = "1.7.25"
     val logback              = "1.2.3"
     val logging              = "3.7.2"
     val config               = "1.3.1"
@@ -37,7 +36,6 @@ object Dependencies {
   object Libraries {
     // Java
     val logback              = "ch.qos.logback"        % "logback-classic"         % V.logback
-    val sl4j                 = "org.sl4j"              % "sl4j-api"                % V.slf4j from s"http://central.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" 
     val yodaTime             = "joda-time"             %  "joda-time"              % V.yodaTime
     val logging              = "com.typesafe.scala-logging"  %% "scala-logging"    % V.logging from s"http://central.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.7.2/scala-logging_2.12-3.7.2.jar"
     val config               = "com.typesafe"          %  "config"                 % V.config

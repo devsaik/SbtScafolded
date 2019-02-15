@@ -9,7 +9,6 @@ lazy val commonDependencies = Seq(
   // Java
   Dependencies.Libraries.yodaTime,
   Dependencies.Libraries.logback,
-  Dependencies.Libraries.sl4j,
   Dependencies.Libraries.logging,
   Dependencies.Libraries.config,
   // Scala
