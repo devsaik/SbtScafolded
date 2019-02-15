@@ -1,4 +1,4 @@
-name := "SbtScafolded"
+name := "Sbtscaffolded"
 
 version := "0.1"
 
@@ -21,9 +21,9 @@ lazy val commonDependencies = Seq(
 
 lazy val buildSettings = Seq(
   organization  :=  "com.wellpay",
-  name          :=  "sbt-scafolded",
+  name          :=  "sbt-scaffolded",
   version       :=  "0.0.1",
-  description   :=  "Scafolded app to build microservices ",
+  description   :=  "scaffolded app to build microservices ",
   scalaVersion  :=  "2.12.4",
   scalacOptions :=  BuildSettings.compilerOptions,
   scalacOptions in (Compile, console) ~= { _.filterNot(Set("-Ywarn-unused-import")) },
@@ -42,7 +42,7 @@ lazy val root = project.in(file("."))
   .aggregate(core)
 
 lazy val core = project
-  .settings(moduleName := "sbt-scafolded")
+  .settings(moduleName := "sbt-scaffolded")
   .settings(buildSettings)
   .settings(libraryDependencies ++= commonDependencies)
   .enablePlugins(BuildInfoPlugin)

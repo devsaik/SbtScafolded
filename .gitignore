@@ -7,7 +7,7 @@
 target/
 core/
 
-
+.DS_Store
 # IntelliJ
 out/
 

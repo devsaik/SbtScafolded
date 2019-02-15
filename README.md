@@ -1,6 +1,6 @@
-# SbtScafolded
+# Sbtscaffolded
 
-Scafolded App. Can get you started.
+scaffolded App. Can get you started.
 
 Run : `sbt run`
 
