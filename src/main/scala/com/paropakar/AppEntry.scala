@@ -1,4 +1,4 @@
-package com.wellpay
+package com.paropakar
 import com.typesafe.scalalogging.LazyLogging
 
 object AppEntry extends App with LazyLogging   {

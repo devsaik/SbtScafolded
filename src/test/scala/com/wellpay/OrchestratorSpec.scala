@@ -1,4 +1,4 @@
-package com.wellpay
+package com.paropakar
 import org.scalatest._
 
 class OrchestratorSpec extends FlatSpec {

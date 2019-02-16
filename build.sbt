@@ -20,7 +20,7 @@ lazy val commonDependencies = Seq(
 )
 
 lazy val buildSettings = Seq(
-  organization  :=  "com.wellpay",
+  organization  :=  "com.paropakar",
   name          :=  "sbt-scaffolded",
   version       :=  "0.0.1",
   description   :=  "scaffolded app to build microservices ",
