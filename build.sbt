@@ -39,18 +39,6 @@ lazy val allSettings = buildSettings ++
 
 lazy val root = project.in(file("."))
   .settings(allSettings)
-  .aggregate(core)
-
-lazy val core = project
-  .settings(moduleName := "sbt-scaffolded")
-  .settings(buildSettings)
-  .settings(libraryDependencies ++= commonDependencies)
-  .enablePlugins(BuildInfoPlugin)
-  .settings(
-    buildInfoKeys := Seq[BuildInfoKey](organization, name, version, "shortName" -> "ssc"),
-    buildInfoPackage := "com.wellpay"
-  )
-
 
 
 
